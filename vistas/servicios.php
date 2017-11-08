@@ -10,7 +10,7 @@
 
     <div class="textoheader pull-right">
       <a class="unete" href="contacto.php">UNETE A NUESTRO EQUIPO</a>
-      <p class="textopheader">"Valores y servicios diferenciados que exceden <br> a las expectativas</p>
+      <p class="textopheader">"Valores y servicios diferenciados que exceden <br> a las expectativas"</p>
     </div>
   </header>
 
@@ -35,7 +35,7 @@
 </nav>
 
 <div class="banners">
-  <p class="tit">DENTRO DE LAS FIRMAS <br> MAS IMPORTANTES DE MEXICO</p>
+  <p class="tit">PROVEEDOR LIDER <br> EN SOLUCIONES DE CALIDAD</p>
   <hr class="linea1">
 
   <p class="subtit">Contamos con un departamento de control de calidad, cuya función es, además de revisar nuestra actuación, contribuir a la mejora continua de nuestros servicios.</p>

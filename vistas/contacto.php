@@ -9,7 +9,7 @@
 
     <div class="textoheader pull-right">
       <a class="unete" href="contacto.php">UNETE A NUESTRO EQUIPO</a>
-      <p class="textopheader">"Valores y servicios diferenciados que exceden <br> a las expectativas</p>
+      <p class="textopheader">"Valores y servicios diferenciados que exceden <br> a las expectativas"</p>
     </div>
   </header>
 <nav class="navbar navbar-inverse" role="navigation">
@@ -33,7 +33,7 @@
 </nav>
 
 <div class="bannerc">
-  <p class="tit">DENTRO DE LAS FIRMAS <br> MAS IMPORTANTES DE MEXICO</p>
+  <p class="tit">PROVEEDOR LIDER <br> EN SOLUCIONES DE CALIDAD</p>
   <hr class="linea3">
 
   <p class="subtit">Para nosotros su comunicación es muy importante, agradecemos nos brinde los siguientes datos para atenderle mejor.</p>
