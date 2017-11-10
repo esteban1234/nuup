@@ -46,23 +46,23 @@
 
 <div class="section" style="padding: 5% 0px;">
       <div class="container">
-        <h1 class="text-center">NUESTROS SERVICIOS</h1>
+        <h1 class="text-center ns">NUESTROS SERVICIOS</h1>
         <p class="texto">Se enfocan en la excelencia y crecimiento de cada uno de nuestros clientes, por esto nos sentimos orgullosos de ofrecer constantemente nuevos servicios especializados.</p>
 
         <div class="icono">
           <i class="fa fa-long-arrow-down fa-5x" aria-hidden="true"></i>
         </div>
         <div class="row">
-          <div class="col-md-4" style=" height: 300px; background-color: #eafaf1; padding-top: 3%;">
-            <h2 class="text-center">AUDITORÍA</h2>
+          <div class="col-sm-4 col-md-4 h-total" style=" height: 300px; background-color: #eafaf1; padding-top: 3%;">
+            <h2 class="text-center tit-afi">AUDITORÍA</h2>
             <p class="text-center texto2">Nuestro compromiso va más allá del cumplimiento. Agregamos valor en su operación. Permítanos trabajar juntos como socios de negocios.</p>
           </div>
-          <div class="col-md-4" style=" height: 300px;background-color: #ebedef ; padding-top: 3%;">
-            <h2 class="text-center">FINANZAS CORPORATIVAS</h2>
+          <div class="col-sm-4 col-md-4 h-total" style=" height: 300px;background-color: #ebedef ; padding-top: 3%;">
+            <h2 class="text-center tit-afi">FINANZAS CORPORATIVAS</h2>
             <p class="text-center texto2">Nuestros servicios en Auditoría, se basan en nuestra amplia experiencia financiera y fiscal, elementos clave para toma de decisiones certeras y convenientes.</p>
           </div>
-          <div class="col-md-4" style=" height: 300px;background-color: #ebf5fb; padding-top: 3%;">
-            <h2 class="text-center">IMPUESTOS Y LEGAL</h2>
+          <div class="col-sm-4 col-md-4 h-total" style=" height: 300px;background-color: #ebf5fb; padding-top: 3%;">
+            <h2 class="text-center tit-afi">IMPUESTOS Y LEGAL</h2>
             <p class="text-center texto2">Aportamos ideas, estrategias y su implementación, destinadas al correcto y eficaz cumplimiento de las obligaciones fiscales empresariales.</p>
           </div>
         </div>

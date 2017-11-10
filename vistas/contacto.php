@@ -19,7 +19,7 @@
       <span class="sr-only">NUUP</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
+      <span class="ic7n-bar"></span>
     </button>
   </div>
   <div class="collapse navbar-collapse navbar-ex1-collapse" >
@@ -32,7 +32,7 @@
   </div>
 </nav>
 
-<div class="bannerc">
+<div class="bannerc margn-c">
   <p class="tit">PROVEEDOR LIDER <br> EN SOLUCIONES DE CALIDAD</p>
   <hr class="linea3">
 
@@ -42,29 +42,28 @@
 <section id="contact">
   <div class="container">
     <div class="well well-sm">
-      <h3><strong>Datos de la empresa y formulario</strong></h3>
+      <h3 class="tit-cont"><strong>Datos de la empresa y formulario</strong></h3>
     </div>
   
   <div class="row">
-    <div class="col-md-7">
-      <div class="row">
-        <div class="col-md-5">
+    <div class="col-sm-7 col-md-7 delete-br">
+      <div class="row border">
+        <div class="col-sm-6 col-md-5">
           <h4 class="text-center">DIRECCION</h4>
           <p class="text-center">C.15 #318 por 38 y 60 Col. Fracc. del Norte, Mérida, Yucatan. C.P. 97120</p>
         </div>
-        <div class="col-md-5">
+        <div class="col-sm-6 col-md-5">
           <h4 class="text-center">HORARIO</h4>
           <p class="text-center">Lunes a Viernes de 9 am a 6 pm</p>
         </div>
-        
       </div>
       <br>
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-sm-6 col-md-5">
         <h4 class="text-center">CORREO</h4>
           <p class="text-center">info@administradoranuup.com</p>
         </div>
-        <div class="col-md-5">
+        <div class="col-sm-6 col-md-5">
           <h4 class="text-center">TELEFONO</h4>
           <p class="text-center">PENDIENTE</p>
         </div>
@@ -72,22 +71,23 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.1652516194606!2d-89.62237991654123!3d21.006221597786393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676a919479279%3A0xfd5b7144c72f081!2sCalle+15+318%2C+Campestre%2C+97120+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1510006035489" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
 
-      <div class="col-md-5">
+      <div class="col-sm-5 col-md-5">
           <h4><strong>Formulario</strong></h4>
-        <form>
+        <form onSubmit="return false">
           <div class="form-group">
-            <input type="text" class="form-control" name="" value="" placeholder="Escribe tu nombre completo">
+            <input type="text" id="txtNOMBRE" class="form-control" name="" value="" placeholder="Escribe tu nombre completo">
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" name="" value="" placeholder="Escribe tu correo electronico">
+            <input type="email" id="txtCORREO" class="form-control" name="" value="" placeholder="Escribe tu correo electronico">
           </div>
           <div class="form-group">
-            <input type="tel" class="form-control" name="" value="" placeholder="Escribe tu número teléfonico">
+            <input type="tel" id="txtTELEFONO" class="form-control" name="" value="" placeholder="Escribe tu número teléfonico">
           </div>
           <div class="form-group">
-            <textarea class="form-control" name="" rows="3" placeholder="Escribe tu comentario"></textarea>
+            <textarea id="txtCOMENTARIO" class="form-control" name="" rows="3" placeholder="Escribe tu comentario"></textarea>
           </div>
-          <button class="btn btn-default" type="submit" name="button">
+          <div id="_AJAX_PRE_" class="col-lg-12"></div>
+          <button class="btn btn-default" type="submit" name="button" onclick="sendCORREO()">
               <i class="fa fa-paper-plane-o" aria-hidden="true"></i> ENVIAR
           </button>
         </form>
